@@ -7,9 +7,11 @@ async function handleRequest(request) {
 
 	const requestURL = new URL(request.url)
 	const path = requestURL.pathname
-	console.log(path)
 
-	const link = "https://" + "yande.re" + path
+    //const ttt = path + " " + requestURL + " 2 " + requestURL.search;
+    //return new Response(ttt)
+
+	const link = "https://" + "yande.re" + path + requestURL.search
 	const html = await fetch(link)
 
 	const text = (await html.text())
@@ -21,5 +23,4 @@ async function handleRequest(request) {
             "content-type": "text/html;charset=UTF-8",
         },
     })
-
 }
