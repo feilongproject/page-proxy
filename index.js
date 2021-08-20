@@ -21,6 +21,8 @@ async function handleRequest(request) {
 	const text = (await html.text())
 		.replaceAll("files.yande.re", file_url)
 		.replaceAll("assets.yande.re", assets_url)
+		.replaceAll("/favicon.ico", "https://cdn.jsdelivr.net/gh/feilongproject/yande-proxy/favicon.ico")
+
     
 	return new Response(text, {
         headers: {
