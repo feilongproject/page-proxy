@@ -13,5 +13,5 @@
 
 ## yande-proxy
 [yande.re](https://yande.re) 代理
-详情见[yande-proxy](yande-proxy/)
+详情见[yande-proxy/](yande-proxy/)
 
