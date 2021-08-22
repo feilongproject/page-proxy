@@ -2,7 +2,7 @@
 专门存放基于cf-worker上的各个关于页面代理脚本
 
 ## tel-ph-proxy
-[telegra.ph](https://telegra.ph)
+[telegra.ph](https://telegra.ph) 代理
 
 ### 使用方法
 1. 将[tel-ph-proxy/index.js](tel-ph-proxy/index.js)分别设成worker
